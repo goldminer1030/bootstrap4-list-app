@@ -1,0 +1,125 @@
+body {
+    font-size: 15px;
+}
+
+header {
+    background: rgba(0,0,0,0) url(../img/background-nav.jpg) repeat scroll 0 0 / cover;
+}
+
+.container-fluid {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.navbar-nav-left .dropdown-menu{
+    left: auto;
+    right: 0
+}
+.navbar-nav-left .dropdown-menu{
+    position: relative;
+}
+.navbar-nav.navbar-nav-left .dropdown-menu a {
+    border-bottom: 1px solid #ccc;
+    color: #155499;
+    padding: 5px;
+}
+.navbar-nav.navbar-nav-left .dropdown-menu a:last-child {
+    border-bottom: medium none;
+}
+.navbar-brand img{
+    max-width: 150px;
+}
+.navbar-nav-left{
+    font-size: 15px;
+}
+.navbar-nav-left .dropdown-menu {
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.navbar h5 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+.remove-default-icon.dropdown-toggle::after{
+    display: none;
+}
+
+.dual-list .list-group {
+   margin-top: 8px;
+}
+
+li:nth-child(odd) {
+    background-color: #efefef;
+}
+li.nav-item.dropdown {
+    background: none;
+}
+.list-left li, .list-right li {
+   cursor: pointer;
+}
+
+.list-arrows {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.list-arrows button {
+    display: inline-block;
+}
+
+@media (min-width: 576px) {  
+    .list-arrows {
+        margin-top: 100px;
+    }
+    .list-arrows button {
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+}
+
+.arrow-up {
+    border-bottom: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    height: 0;
+    position: absolute;
+    right: 12px;
+    top: -7px;
+    width: 0;
+}
+
+.dual-list a.selector{
+    position: relative;
+    z-index: 22 !important;
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.copyright {
+    color: #7d7d7d;
+    font-size: 14px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    background: #f5f7f8;
+    min-height: 25px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 15px 0;
+}

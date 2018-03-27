@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company - Emergency Response Team</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="fonts/specimen_files/specimen_stylesheet.css" rel="stylesheet">
+    <link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-md mb-4 justify-content-between">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Company"></a>
+        <div class="mr-auto">
+            <h4>Company</h4>
+            <h5>Emergency Response System</h5>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-left">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle remove-default-icon" href="http://example.com" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Chris Robertson <i class="fa fa-cog" aria-hidden="true"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown03">
+                        <div class="arrow-up"></div>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="dual-list list-left col-sm-5">
+                <h5 class="mt-4">Select:</h5>
+
+                <div class="well">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                </div>
+                                <input type="text" name="SearchDualList" class="form-control" placeholder="Search" />
+                            </div>
+                        </div>
+                        <div class="col-4 text-right">
+                            <div class="btn-group">
+                                <a class="btn btn-default selector" title="select all"><i class="fa fa-check" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="display-list">
+                        <ul class="list-group">
+                            <li class="list-group-item">Location 1</li>
+                            <li class="list-group-item">Location 2</li>
+                            <li class="list-group-item">Location 3</li>
+                            <li class="list-group-item">Location 4</li>
+                            <li class="list-group-item">Location 5</li>
+                            <li class="list-group-item">Location 6</li>
+                            <li class="list-group-item">Location 7</li>
+                            <li class="list-group-item">Location 8</li>
+                            <li class="list-group-item">Location 9</li>
+                            <li class="list-group-item">Location 10</li>
+                            <li class="list-group-item">Location 11</li>
+                            <li class="list-group-item">Location 12</li>
+                            <li class="list-group-item">Location 13</li>
+                            <li class="list-group-item">Location 14</li>
+                            <li class="list-group-item">Location 15</li>
+                            <li class="list-group-item">Location 16</li>
+                            <li class="list-group-item">Location 17</li>
+                            <li class="list-group-item">Location 18</li>
+                            <li class="list-group-item">Location 19</li>
+                            <li class="list-group-item">Location 20</li>
+                            <li class="list-group-item">Location 21</li>
+                            <li class="list-group-item">Location 22</li>
+                            <li class="list-group-item">Location 23</li>
+                            <li class="list-group-item">Location 24</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-arrows col-sm-2">
+                <button class="btn btn-primary move-left"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>
+
+                <button class="btn btn-primary move-right"> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+            </div>
+
+            <div class="dual-list list-right col-sm-5">
+                <h5 class="mt-4">Sending to:</h5>
+
+                <div class="well">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="input-group">
+                                <input type="text" name="SearchDualList" class="form-control" placeholder="Search" />
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <div class="btn-group">
+                                <a class="btn btn-default selector" title="select all"><i class="fa fa-check" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="display-list">
+                        <ul class="list-group">
+   
+                        </ul>
+                    </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Add to website</label>
+                          </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-12 mt-3">
+                <form>
+
+                    <div class="form-group">
+                        <label for="">Message:</label>
+                        <textarea class="form-control" id="" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary pull-right">Send</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="copyright text-center">
+        Copyright &#169; 2018 Company. All rights reserved.
+    </footer>
+    <script src="js/location-selection.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/dual-list.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/scrollbar.js"></script>
+</body>
+
+</html>
